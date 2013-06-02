@@ -1,0 +1,12 @@
+/* ============================================================
+   Code Boxes
+   ============================================================ */
+	.cdbx-code{
+		font-family: consolas, monospace, serif;
+		font-size: 12px;
+		padding: 5px 10px;
+		border: 1px solid #ccc;
+		vertical-align: middle;
+		text-transform: none;
+	}
+		input.code{ cursor: pointer; }

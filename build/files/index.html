@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Codebox Demo
+		
+		<!-- @if NODE_ENV == 'DEVELOPMENT' -->
+		| DEVELOPMENT
+		<!-- @endif -->
+		
+		<!-- @if NODE_ENV == 'PRODUCTION' -->
+		| PRODUCTION
+		<!-- @endif -->
+		
+	</title>
+	<link rel="stylesheet" href="css/codebox.css">
+</head>
+<body>
+	
+	<h1>Codebox.js Demo</h1>
+	
+	<div class="something cool here cdbx">Something cool with cool classes</div>
+	
+	<p class="foo bar cdbx">This paragraph tag has 3 classes: <code>foo, bar, and cdbx</code></p>
+	
+	<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+	
+	<!-- @if NODE_ENV == 'DEVELOPMENT' -->
+	<script src="js/codebox.js"></script>
+	<!-- @endif -->
+		
+	<!-- @if NODE_ENV == 'PRODUCTION' -->
+	<script src="js/codebox.min.js"></script>
+	<!-- @endif -->
+	
+</body>
+</html>

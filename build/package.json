@@ -1,0 +1,37 @@
+{
+  "title": "Codebox",
+  "name": "codebox",
+  "description": "A box for code.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/psullivan6/codebox.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/psullivan6/codebox.git"
+  },
+  "author": {
+    "name": "Patrick Sullivan",
+    "url": "http://psullivan6.com"
+  },
+  "keywords": [
+    "javascript",
+    "jquery",
+    "plugin"
+  ],
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+    "grunt": "0.4.1",
+    "grunt-contrib-watch": "0.3.1",
+    "grunt-contrib-jshint": "0.4.3",
+    "grunt-contrib-clean": "0.4.1",
+    "grunt-contrib-uglify": "0.2.0",
+    "grunt-contrib-copy": "0.4.1",
+    "grunt-preprocess": "2.2.0",
+    "grunt-env": "0.2.1"
+  },
+  "devDependencies": {}
+}
