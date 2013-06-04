@@ -1,17 +1,5 @@
 (function( $ ) {
 	
-	/*
-	$.fn.codebox = function( options ){
-		
-		var settings = $.extend({
-			
-			blacklist : ['cdbx', 'color', 'd-in-block']
-			
-		}, options);
-		
-	};
-	*/
-	
 	$('.cdbx').each(function(){
 		
 		var blacklist = [
